@@ -1,0 +1,67 @@
+#color{
+    background: pink;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:whitesmoke; 
+}
+
+
+ul.nav li {
+    float: right;
+}
+
+ul.nav li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+ul.nav li a.active {
+    background-color: #e2ecee;
+}
+
+
+ul.nav li a:hover {
+    background-color: #555; 
+}
+
+
+ul.nav:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
